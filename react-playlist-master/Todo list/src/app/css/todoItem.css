@@ -1,0 +1,23 @@
+.todo-item{
+  padding: 16px 5px;
+  border-bottom: 1px dashed goldenrod;
+  display: flex;
+}
+
+.todo-item:hover{
+  background: #eee;
+}
+
+.item-name{
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.item-remove{
+  flex-basis: auto;
+  flex-grow: 1;
+  text-align: right;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}

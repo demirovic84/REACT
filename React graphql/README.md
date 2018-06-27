@@ -1,3 +1,8 @@
+Wanted to learn graphql with react.
+In this project I made a list of the content in my education to be displayed.
+
+In this project: Express, Apollo, Node.js, Boostrap, React, graphql
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

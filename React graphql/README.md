@@ -1,3 +1,5 @@
+# React-graphql
+
 Wanted to learn graphql with react.
 In this project I made a list of the content in my education to be displayed.
 

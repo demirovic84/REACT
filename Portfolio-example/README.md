@@ -1,6 +1,7 @@
 # Portfolio Redux App
 
 A Portfolio example of an isomorphic rendering application in React and Redux.
+Used this to create my own portfolio and to learn all the structure in React, components, routing etc.
 
 <img src="http://g.recordit.co/cO0pqgO8Fo.gif" width="728" />
 

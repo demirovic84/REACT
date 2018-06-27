@@ -1,3 +1,9 @@
+Played with grapql with react. Including Apollo, Express, Node.js, Bootstrap
+
+Made it with the courses in my education to be displayed.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

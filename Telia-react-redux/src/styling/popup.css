@@ -1,0 +1,106 @@
+.popText {
+    white-space: pre-line;
+    color: #222;
+    line-height: 150%;
+    padding: 30px;
+    font-style: normal;
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-weight: 400;
+}
+
+.popup-content {
+    position: fixed !important;
+    z-index: 2;
+    width: 600px !important;
+    height: auto;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0! important;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(187, 187, 187);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.popup_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+a.close {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.readmoreBtn {
+    border: none;
+    color: #9b009b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+.readmoreBtn:hover {
+    color: #AE00E5;
+}
+
+.closeBtn {
+    border: 1px solid #AE00E5;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #AE00E5;
+    margin-bottom: 10px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.closeBtnTop {
+    justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    color: #AE00E5;
+    font-weight: 900;
+    font-size: 15px;
+    outline: none;
+    width: auto;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.closeButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.closeOK {
+    border: none;
+    color: #AE00E5;
+    font-size: 18px;
+    width: 30px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-left: -3px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup-overlay {
+    background-color: rgba(0,0,0, 0.5);
+    cursor: default;
+}

@@ -1,0 +1,114 @@
+@font-face {
+    font-family:Pebble;
+    src:url(../fonts/Pebble_W_Rg.woff);
+}
+
+.MiddleWrapper {
+    background: #fff;
+}
+
+.phoneWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+.phoneImageWrapper {
+    height: 350px;
+}
+
+.phoneTextWrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.phoneText {
+    margin: 0 0 .4em;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+.phoneBtn a:hover {
+    background: #990ae3;
+    color:white;
+}
+
+h1.phoneh1 {
+    font-size: 55px;
+    color: #990ae3;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Pebble;
+}
+
+p.phoneP {
+    font-size: 16px;
+    line-height: 1.375;
+    max-width: 550px;
+}
+
+.phoneBtn {
+    margin-top: 1em;
+}
+
+.phoneBtn a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #990ae3;
+    border-color: 1px #990ae3;
+    border-radius: 29px;
+    padding: 17px 30px;
+    line-height: 1;
+    white-space: nowrap;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    transition: background-color .15s ease,color .15s ease;
+}
+
+.phoneImage {
+    height: 120%;
+    margin-right: 40px;
+}
+
+.MiddleWrapperFooter {
+    background: #f2f2f2;
+    height: 250px;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Pebble;
+    padding-top: 40px;
+    font-size: 35px;
+    color: #222;
+    margin-left: 80px;
+}
+
+.contentWrapper div {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrapper div a {
+    font-size: 15px;
+    color: #1BB5D9;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 500;}
+
+.contentWrapper div div {
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}

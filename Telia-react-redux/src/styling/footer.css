@@ -1,0 +1,107 @@
+.FooterWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #990ae3;
+    height: 500px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.MiddleWrapperFooter {
+    background: #f2f2f2;
+    height: 250px;
+}
+
+.contentWrapperFooter {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Pebble;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    margin-left: 80px;
+}
+
+.contentWrapperFooter div {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.contentWrapperFooter div a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 100;}
+
+.contentWrapperFooter div div {
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}
+
+.logosFooter{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #642d96;
+    border-bottom: 1px solid #642d96;
+    padding: 1rem;
+}
+
+.logosFooter li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    width: 110px;
+    padding: 1rem;
+}
+
+.socialWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 2rem;
+}
+
+.socialFooter {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.socialIcons {
+    width: 40px;
+    transition: transform .2s;
+}
+
+.socialIcons:hover {
+    transform: scale(1.5);
+}
+
+ul.socialFooter li {
+    margin-right: 20px;
+}
+
+.teliaLogo {
+    width: 100px;
+}
+
+.footer-address {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.links a:hover {
+    color: #111;
+}

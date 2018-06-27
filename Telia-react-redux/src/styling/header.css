@@ -1,0 +1,259 @@
+@font-face {
+    font-family:Pebble;
+    src:url(../fonts/Pebble_W_Rg.woff);
+}
+
+.headerContainer {
+    background-color: lightgrey;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    flex-direction: column;
+}
+
+.itemWrapper {
+    background-color: white;
+    margin-right: 1px;
+}
+
+@media only screen and (max-width: 900px) {
+    /* .itemWrapper {
+        padding: 10px;
+    } */
+}
+
+.itemContent {
+    flex-direction: column;
+    display: flex;
+    min-width: 80%;
+    margin-top: 30px;
+    position: absolute;
+    width: 85% !important;
+}
+
+@media only screen and (max-width: 900px) {
+    /* .itemContent {
+        min-width: 100%;
+        margin-top: 70px;
+    } */
+}
+
+.pebble1{
+    background: url("../img/pebble-left.svg") no-repeat;
+    margin-top: -50px;
+    background-size: 499px;
+    background-position: top -133px left -415px;
+}
+
+@media only screen and (max-width: 900px) {
+    .pebble1{
+        margin-top: -50px;
+        background-size: 499px;
+        background-position: top -133px left -415px;
+        background: none;
+    }
+}
+
+.pebble2 {
+    background: url("../img/pebble-right.svg") no-repeat;
+    background-size: contain;
+    background-position: top -146px right -115px;
+    background-size: 488px;
+} 
+
+@media only screen and (max-width: 900px) {
+    .pebble2 {
+        background-size: contain;
+        background-position: top -100px right -240px;
+        background-size: 400px;    background-position: top -100px right -240px;
+        background-size: 400px;
+        background: none;
+    } 
+}
+
+.header-title {
+    color: #AE00E5;
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: Pebble;
+}
+
+@media only screen and (max-width: 900px) {
+    .header-title {
+        font-size: 20px;
+    }
+}
+
+.Item {
+    flex-direction: row;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    height: 300px;
+    background: #f2f2f2;
+} 
+
+@media only screen and (max-width: 900px) {
+    .Item div {
+        width: 100%; 
+    }
+}
+
+.Item div {
+    display: flex;
+    width: 100%; 
+}
+
+label {
+    width: 100%;
+}
+
+label {
+    cursor:pointer;
+}
+
+label [type="radio"] {
+    display:none; 
+}
+
+[type="radio"] + span {
+    display:flex;
+}
+
+.toplev1 {
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.toplev2 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .toplev2 {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+.toplev2 :first-child {
+    display: flex;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.Top {
+    width: 100%;
+    height: 135px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+    /* .Top {
+        width: 100%;
+        height: 80px;
+    } */
+}
+:checked + .Top {
+    border-bottom: 7px solid #AE00E5;
+    color: #AE00E5;
+}
+
+.Top:hover {
+    color: #E400FF;
+}
+
+.itemTitle {
+    align-items: center;
+    width: 100%;
+    align-items: flex-start;
+    height: 30px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 900px) {
+.itemTitle {
+    height: 100%;
+    font-size: 18px;
+    justify-content: flex-start;
+    margin-top: 5px;
+    }
+}
+
+.iconSimCard {
+    background: url("../img/ico-simcard.svg") no-repeat;
+    margin-left: 20px;
+    height: 30px;
+    width: 20% !important;
+}
+
+/* Changing icon when hover */
+.Top:hover .iconSimCard {
+    background: url("../img/ico-simcard-purple.svg") no-repeat;
+}
+
+/* Making the icon also change color when clicked */
+:checked + .Top .iconSimCard {
+    background: url("../img/ico-simcard-purple.svg") no-repeat;
+}
+
+.iconWireless {
+    background: url("../img/ico-wifi.svg") no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 25% !important;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.Top:hover .iconWireless {
+    background: url("../img/ico-wifi-purple.svg") no-repeat;
+}
+:checked + .Top .iconWireless {
+    background: url("../img/ico-wifi-purple.svg") no-repeat;
+}
+
+.iconMore {
+    background: url("../img/ico-more.svg") no-repeat;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 20% !important;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.Top:hover .iconMore {
+    background: url("../img/ico-more-purple.svg") no-repeat;
+}
+
+:checked + .Top .iconMore {
+    background: url("../img/ico-more-purple.svg") no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+/* .iconWireless, .iconSimCard {
+    width: 40% !important;
+    margin-left: 5px;
+    background-size: 20px;
+    margin-top: 15px;
+    } */
+}
+
+@media only screen and (max-width: 900px) {
+    /* .iconMore {
+    width: 40% !important;
+    margin-left: 5px;
+    background-size: 20px;
+    margin-top: 25px;
+    } */
+}
+
+
+

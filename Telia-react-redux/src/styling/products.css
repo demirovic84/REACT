@@ -1,0 +1,248 @@
+@font-face {
+    font-family:Pebble;
+    font-weight: 400;
+    src:url(../fonts/Pebble_W_Rg.woff);
+}
+
+.Products {
+    margin: 40px;
+    margin-left: 10%;
+    /* margin-bottom: 50px; */
+}
+
+@media only screen and (max-width: 900px) {
+    .Products {
+        /* margin-left:0; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .productWrapper {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.Products div {
+    display: flex;
+    /* flex-direction: row-reverse;
+    justify-content: flex-end; */
+}
+
+.productCard {
+    width: 184px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 50px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    background: #f2f2f2;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.productCard:hover > .productName{
+    transition: all 0.3s ease;
+    background: #e400ff;
+    color: white;
+}
+
+.productCard:hover{
+    transition: all 0.3s ease;
+    background: #e400ff;
+}
+
+/* nth-child 1*/
+.productCard:nth-child(1) {
+    margin-top: 0px;
+}
+/* .productCard:nth-child(1)>.productName {
+    height: 120px;
+} */
+
+/* nth-child 2*/
+
+.productCard:nth-child(2) {
+    margin-top: 10px;
+}
+/* .productCard:nth-child(2) > .productName {
+    height: 103px;
+} */
+
+/* nth-child 3*/
+.productCard:nth-child(3) {
+    margin-top: 20px;
+}
+/* .productCard:nth-child(3)>.productName {
+    height: 88px;
+} */
+
+/* nth-child 4*/
+.productCard:nth-child(4) {
+    margin-top: 30px;
+}
+/* .productCard:nth-child(4)>.productName {
+    height: 71px;
+} */
+
+@media only screen and (max-width: 900px) {
+    .productCard {
+        width: 95%;
+        height: auto;
+    }
+}
+
+.productName {
+    padding: 20px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Pebble;
+    font-weight: 100;
+    flex-direction: column;
+}
+
+.productName:hover {
+    /* transition: all 0.3s ease; */
+    color: white;
+}
+
+.productButton {
+    justify-content: center;
+    text-align: center;
+    background-color: #00D967;
+    padding: 17px;
+    border-radius: 29px;
+    line-height: 1;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    letter-spacing: 1.2px;
+    transition: background-color .15s ease,color .15s ease;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100px;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.productButton:hover {
+    background: #99ff64;
+}
+
+.cardReadMore {
+    justify-content: center;
+    align-content: flex-end;
+    color: #AE00E5;
+    padding: 10px;
+}
+
+/* .default .productName{
+    background-color: #AE00E5;
+} */
+
+/* .default .productName:hover{
+    background-color: #e400ff;
+} */
+
+.productCard.default {
+    background: #AE00E5;
+} 
+
+.productCard.default:hover {
+    background: #e400ff;
+} 
+
+
+.productCardCampaign {
+    position: absolute;
+    width: 120px;
+    height: 84px;
+    top: 0px;
+    right: -48px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+} 
+
+.kampanjSpan {
+    height: 22px;
+    display: block;
+    background-color: #0c6;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 140px;
+    position: relative;
+    right: 15px;
+    bottom: -17px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.campaignOffersIcons {
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+div.phoneIcon{
+    background: url("../img/phone.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+div.messageIcon{
+    background: url("../img/message.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.campaignOffersIcons .iconsDiv {
+    display: block;
+    width: 100%;
+}
+
+.campaignText {
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.dataGB {
+    font-size: 24px;
+}
+
+.dataPrice {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.bottomCardWrapper {
+    flex-direction: column;
+    background: white;
+    margin: 2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: space-between;
+    height: 230px;
+}

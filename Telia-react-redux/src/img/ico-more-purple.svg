@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="7px" viewBox="0 0 29 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms/Icons/Mobile/Dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="WEBB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0_Ladda-kontantkort_fastpris" transform="translate(-1036.000000, -257.000000)" fill="#990ae3">
+            <g id="Molecules/List/Icon-panel---2-row" transform="translate(1018.000000, 228.000000)">
+                <g id="Group-11" transform="translate(16.000000, 16.000000)">
+                    <g id="Atoms/Icons/More/Dark" transform="translate(0.943333, 0.000000)">
+                        <path d="M8.64885993,16.5 C8.64885993,18.4273973 7.16221498,20 5.31986971,20 C3.47752443,20 2,18.4273973 2,16.5 C2,14.5726027 3.48664495,13 5.32899023,13 C7.1713355,13 8.64885993,14.5630137 8.64885993,16.5 Z M15.9635179,13 C14.1302932,13 12.6345277,14.5630137 12.6345277,16.5 C12.6345277,18.4369863 14.1211726,20 15.9635179,20 C17.8058632,20 19.2925081,18.4369863 19.2925081,16.5 C19.2925081,14.5630137 17.8058632,13 15.9635179,13 Z M26.6071661,13 C24.7739414,13 23.2781759,14.5630137 23.2781759,16.5 C23.2781759,18.4369863 24.7648208,20 26.6071661,20 C28.4495114,20 29.9361564,18.4369863 29.9361564,16.5 C29.9361564,14.5630137 28.4403909,13 26.6071661,13 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

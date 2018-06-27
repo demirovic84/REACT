@@ -1,3 +1,5 @@
+# Telia app with React & Redux
+
 This project was made during my LIA 2. 
 This is a telia app, the app shows telia's pricing plans for their mobile subscriptions. 
 The main part that was to be solved was to collect all the data from two different API's and display them correctly in react and redux.

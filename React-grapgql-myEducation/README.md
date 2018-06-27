@@ -1,4 +1,4 @@
-Played with grapql with react. Including Apollo, Express, Node.js, Bootstrap
+Played with graphql with react. Including Apollo, Express, Node.js, Bootstrap
 
 Made it with the courses in my education to be displayed.
 
